@@ -3,6 +3,7 @@ from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 
+
 class DogCatDataset(Dataset):
     def __init__(self, root_dir, size, transform=None):
         """
